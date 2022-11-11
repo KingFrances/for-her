@@ -1,0 +1,92 @@
+
+.head {
+  font-family: 'Dancing Script';
+  font-size: 150px;
+}
+
+p {
+  font-family: 'Quicksand';
+  font-size: 50px;
+}
+
+body {
+  background-color: #E9DCC9;
+  padding: 0;
+  margin: 0;
+}
+
+section {
+  display: grid;
+  place-items: center;
+  align-content: center;
+  min-height: 100vh;
+}
+
+.feelings {
+  font-family: 'Quicksand';
+  font-size: 50px;
+}
+
+.hidden {
+  opacity: 0;
+  filter: blur(5px);
+  transform: translateX(-100%);
+  transition: all 2s;
+}
+
+.show {
+  opacity: 1;
+  filter: blur(0);
+  transform: translateX(0);
+}
+
+.logo {
+  transition-delay: 400ms;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 300,
+  'GRAD' 200,
+  'opsz' 48;
+  font-size: 75px;
+}
+
+.love {
+  font-style: oblique;
+  font-weight: 700;
+}
+
+.me {
+  font-family: 'Quicksand';
+  font-size: 50px;
+}
+
+.par {
+  transition-delay: 500ms;
+  text-align: center;
+  width: 1000px;
+}
+
+.faith {
+  transition-delay: 500ms;
+}
+
+.coincedence {
+  transition-delay: 1500ms;
+}
+
+.meant {
+  font-family: 'Dancing Script';
+  font-size: 80px;
+}
+
+img {
+  width: 200px;
+}
+
+.baboy {
+  font-size: 20px;
+  transition-delay: 2000ms;
+}
